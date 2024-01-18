@@ -9,15 +9,10 @@ export default function AboutMe() {
           <p className="section--title">About</p>
           <h1 className="skills-section--heading">About Me</h1>
           <p className="hero--section-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-            officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-            recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam
-            tempora numquam sint odit optio.
+            Greetings! I'm Rémi, a passionate Front End Web Developer 1 UX/UI designer on a journey to bridge the realms of technology and creativity. With a background in Digital Project Management and UX/UI Design, I've embarked on the thrilling adventure of coding to bring ideas to life.
           </p>
           <p className="hero--section-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-            officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-            recusandae?
+            My primary goal is to contribute meaningfully to the world of web development, crafting digital experiences that not only meet but exceed expectations. I thrive on challenges and continuous learning, always seeking opportunities to push the boundaries of what's possible in the digital landscape. Let's innovate, collaborate, and build something extraordinary together!
           </p>
         </div>
       </div>
