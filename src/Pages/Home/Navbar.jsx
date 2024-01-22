@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import DownloadButton from './DownloadButton';
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
@@ -97,26 +98,15 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="testimonial"
+              to="Contact"
               className="navbar--content"
             >
-              Testimonials
+              Contact
             </Link>
           </li>
         </ul>
       </div>
-      <Link
-        onClick={closeMenu}
-        activeClass="navbar--active-content"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        to="Contact"
-        className="btn btn-outline-primary"
-      >
-        Contact Me
-      </Link>
+      <DownloadButton />
     </nav>
   );
 }
