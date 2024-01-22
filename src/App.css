@@ -391,6 +391,50 @@ h2 {
 }
 /* Portfolio Ends */
 
+/* Last word styles */
+
+.LastWord--container--section {
+  background: linear-gradient(to right, #3494e6, #ec6ead);
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.LastWord--container--section::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: url('https://cdn.jsdelivr.net/gh/Ashung/Awesome-Profile-README-templates/texture.png'); /* Replace with your own noise image */
+  opacity: 0.8; /* Adjust the opacity to control the intensity of the noise effect */
+  z-index: -1;
+}
+
+.LastWord--content--text {
+  color: var(--white);
+  width: 36%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.LastWord--content--h1 {
+  color: var(--white);
+  width: 75%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Last Word ends  */
+
 /* Testimonial */
 .testimonial--section {
   display: flex;
