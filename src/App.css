@@ -289,9 +289,12 @@ h2 {
   align-items: center;
   gap: 13.3px;
   border-radius: 10.6px;
-  background: #fff;
-  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
 }
+
+.skills--section--img > img {
+  width: 46px;
+}
+
 .skills--section--card--content {
   display: flex;
   flex-direction: column;
