@@ -19,6 +19,32 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
     }
   ],
+  "philosophy": [
+    {
+      "id": "1",
+      "src": "./img/laptop-code-solid.png",
+      "title": "Continuous learning:",
+      "description": "I am constantly looking for novelty and wish to develop my professional and interpersonal skills."
+    },
+    {
+      "id": "2",
+      "src": "./img/swatchbook-solid.png",
+      "title": "Open-minded:",
+      "description": "It is important to be able to adapt to each projects and to show kindness to my various colleagues and interlocutors."
+    },
+    {
+      "id": "3",
+      "src": "./img/bars-progress-solid.png",
+      "title": "Help each other:",
+      "description": "I have the will to put my knowledge and my skills at the service of others."
+    },
+    {
+      "id": "4",
+      "src": "./img/bars-progress-solid.png",
+      "title": "Ethics:",
+      "description": "The values that are dear to me: respect, tolerance, honesty and fairness."
+    }
+  ],
   "portfolio": [
     {
       "id": "1",
