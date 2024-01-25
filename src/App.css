@@ -17,16 +17,21 @@ p {
   margin: 0;
 }
 :root {
-  --primary: #5e3bee;
-  --heading-color: #282938;
-  --bg-shade: #f5fcff;
+  --primary: #673AA5;
+  --heading-color: #282828;
+  --bg-shade: #E8ECEB;
   --github: #e62872;
   --darkblue: #1c1e53;
   --black: #000000;
-  --white: #ffffff;
+  --white: #FBFDFB;
 }
+
+a {
+  text-decoration: none;
+}
+
 .btn {
-  font-family: "Roboto";
+  /* font-family: "Roboto"; */
   display: inline-block;
   padding: 14px 32px;
   font-size: 16px;
@@ -139,7 +144,7 @@ h2 {
   display: flex;
   align-items: flex-start;
 }
-/* Portfolio, Testimonial & Contact Me */
+/* Portfolio & Contact Me */
 .sub--title {
   color: var(--heading-color);
   font-size: 16px;
@@ -195,6 +200,7 @@ h2 {
   gap: 32px;
   background-color: var(--bg-shade);
 }
+
 .hero--section--content-box {
   display: flex;
   flex-direction: column;
@@ -240,6 +246,7 @@ h2 {
 .hero--section--img > img {
   width: 100%;
   height: 100%;
+  opacity: 0.1;
 }
 /* Hero Section Style Ends */
 
@@ -488,7 +495,7 @@ h2 {
 }
 .contact--input {
   display: flex;
-  font-family: "Roboto";
+  /* font-family: "Roboto"; */
   padding: 16px;
   align-items: center;
   align-self: stretch;
