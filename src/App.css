@@ -22,8 +22,8 @@ p {
   --bg-shade: #E8ECEB;
   --github: #e62872;
   --darkblue: #1c1e53;
-  --black: #000000;
-  --white: #FBFDFB;
+  --black: #1A1818;
+  --white: #EBE7E1;
 }
 
 a {
@@ -420,7 +420,8 @@ h2 {
 /* Last word styles */
 
 .LastWord--container--section {
-  background: linear-gradient(to right, #3494e6, #ec6ead);
+  /* background: linear-gradient(to right, #3494e6, #ec6ead); */
+  background-color: var(--black);
   height: 100vh;
   width: 100%;
   margin: 0;
@@ -428,19 +429,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.LastWord--container--section::after {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  background: url('https://cdn.jsdelivr.net/gh/Ashung/Awesome-Profile-README-templates/texture.png'); /* Replace with your own noise image */
-  opacity: 0.8; /* Adjust the opacity to control the intensity of the noise effect */
-  z-index: -1;
+  gap: 36px;
 }
 
 .LastWord--content--text {
