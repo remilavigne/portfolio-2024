@@ -1,5 +1,8 @@
 import React from 'react';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDownload} from '@fortawesome/free-solid-svg-icons'
+
 const DownloadButton = () => {
   const handleDownload = () => {
     // Assuming your PDF file is in the public folder
@@ -22,8 +25,9 @@ const DownloadButton = () => {
   };
 
   return (
-    <button onClick={handleDownload} className="btn btn-outline-primary">
-      Download my resume
+    <button onClick={handleDownload} className="btn btn-outline-primary btn-contact">
+      <FontAwesomeIcon icon={faDownload} />
+      My resume
     </button>
   );
 };
