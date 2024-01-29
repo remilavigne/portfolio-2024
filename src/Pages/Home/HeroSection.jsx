@@ -1,5 +1,8 @@
 import { Link } from "react-scroll";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faSquareGithub } from '@fortawesome/free-brands-svg-icons'
 
 export default function HeroSection() {
   return (
@@ -15,14 +18,24 @@ export default function HeroSection() {
           </p>
         </div>
         <div className="hero--section--cta">
-          <FontAwesomeIcon icon="fa-brands fa-linkedin-in" />
           <a
             href="https://github.com/remilavigne"
             target="_blank"
             rel="noopener noreferrer"
            >
             <button className="btn btn-github">
+              <FontAwesomeIcon icon={faSquareGithub} />
               My GitHub
+            </button>
+          </a>
+          <a
+            href="www.linkedin.com/in/rémi-lavigne-68753898"
+            target="_blank"
+            rel="noopener noreferrer"
+           >
+            <button className="btn btn-github">
+              <FontAwesomeIcon icon={faLinkedin} />
+              Connect on LinkedIn
             </button>
           </a>
           <Link
@@ -34,7 +47,9 @@ export default function HeroSection() {
                 to="Contact"
                 className="text-md"
               >
-                <button className="btn btn-primary">Contact Me</button>
+                <button className="btn btn-primary btn-contact">
+                  <FontAwesomeIcon icon={faEnvelope} />
+                  Contact Me</button>
               </Link>
         </div>
       </div>
