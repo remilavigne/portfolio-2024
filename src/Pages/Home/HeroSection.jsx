@@ -1,21 +1,21 @@
 import { Link } from "react-scroll";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function HeroSection() {
   return (
     <section id="heroSection" className="hero--section">
       <div className="hero--section--content--box">
         <div className="hero--section--content">
-          <p className="section--title">Welcome, I'm Rémi</p>
+          <p className="section--title">Hello there!</p>
           <h1 className="hero--section--title">
-            <span className="hero--section-title--color">Front End</span>{" "}
-            <br />
-            Developer & UX/UI Designer
+            <span className="hero--section-title--color">I'm <strong>Rémi</strong></span>{" "}
           </h1>
           <p className="hero--section-description">
-          Elevating digital experiences with a touch of creativity. I'm Rémi, your Front-End Web Developer and UX/UI Designer. Let's craft intuitive designs and seamless interfaces that leave a lasting impact. Ready to transform ideas into compelling realities?
+            A front-end web developer, passionate about UX, interactions and pixel perfect design.
           </p>
         </div>
         <div className="hero--section--cta">
+          <FontAwesomeIcon icon="fa-brands fa-linkedin-in" />
           <a
             href="https://github.com/remilavigne"
             target="_blank"
