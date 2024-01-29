@@ -70,6 +70,14 @@ a {
   color: var(--primary);
   background-color: var(--white);
 }
+
+.btn-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
 .btn-github {
   color: var(--white);
   background-color: var(--github);
