@@ -5,7 +5,7 @@ export default function AboutMe() {
         <img src="./img/about-me.png" alt="About Me" />
       </div>
       <div className="hero--section--content--box about--section--box">
-        <div className="hero--section--content">
+        <div className="about--section--content">
           <p className="section--title">Nice to meet you!</p>
           <div className="section--title--flex">
             <hr className="horizontal-line"/>

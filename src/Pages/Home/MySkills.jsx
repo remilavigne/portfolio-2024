@@ -5,7 +5,10 @@ export default function MySkills() {
     <section className="skills--section" id="mySkills">
       <div className="portfolio--container">
         <p className="section--title">My Skills</p>
-        <h2 className="skills--section--heading">My Expertise</h2>
+        <div className="section--title--flex">
+            <hr className="horizontal-line"/>
+            <h1 className="skills-section--heading">My Expertise</h1>
+        </div>
       </div>
       <div className="skills--section--container">
         {data?.skills?.map((item, index) => (

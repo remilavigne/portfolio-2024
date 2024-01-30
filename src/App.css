@@ -116,6 +116,10 @@ hr {
   background-color: var(--white);
 }
 
+.contact--form--btn {
+ width: 100%;
+}
+
 /* Global CSS Ends */
 /* Main Headings */
 
@@ -308,7 +312,7 @@ h2 {
   justify-content: center;
   align-items: flex-start;
   gap: 16px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .skills--section--container--list {
@@ -388,6 +392,14 @@ h2 {
   gap: 114.6px;
   grid-template-columns: repeat(2, 1fr);
   background-color: var(--bg-shade);
+}
+
+.about--section--content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 21.333px;
 }
 .section--title--flex{
   display: flex;
@@ -479,6 +491,14 @@ h2 {
   stroke: #006b6a;
 }
 /* Portfolio Ends */
+
+.philosophy--section--container {
+  display: grid;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 42.6px;
+  grid-template-columns: repeat(4, 1fr);
+}
 
 /* Last word styles */
 
