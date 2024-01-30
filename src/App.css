@@ -17,13 +17,15 @@ p {
   margin: 0;
 }
 :root {
-  --primary: #673AA5;
-  --heading-color: #282828;
-  --bg-shade: #E8ECEB;
-  --github: #e62872;
+  --primary: #1DC0B2;
+  --heading-color: #1A1818;
+  --bg-shade: #EBE7E1;
+  --github: #F0C1E1;
   --darkblue: #1c1e53;
   --black: #1A1818;
-  --white: #EBE7E1;
+  --white: #F6F6F6;
+  --yellow: #FED36F;
+  --gradient: linear-gradient(-45deg, #1DC0B2, #FED36F, #F0C1E1);
 }
 
 a {
