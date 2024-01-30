@@ -5,9 +5,12 @@ export default function MySkills() {
     <section className="skills--section" id="mySkills">
       <div className="portfolio--container">
         <p className="section--title">What's drive me to excellence</p>
-        <h2 className="skills--section--heading">My philosophy</h2>
+        <div className="section--title--flex">
+            <hr className="horizontal-line"/>
+            <h1 className="skills-section--heading">My Philosophy</h1>
+        </div>
       </div>
-      <div className="skills--section--container">
+      <div className="philosophy--section--container">
         {data?.philosophy?.map((item, index) => (
           <div key={index} className="skills--section--card">
             <div className="skills--section--img">

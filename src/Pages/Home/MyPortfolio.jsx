@@ -6,7 +6,10 @@ export default function MyPortfolio() {
       <div className="portfolio--container-box">
         <div className="portfolio--container">
           <p className="sub--title">Recent Projects</p>
-          <h2 className="section--heading">My Portfolio</h2>
+          <div className="section--title--flex">
+            <hr className="horizontal-line"/>
+            <h1 className="skills-section--heading">My portfolio</h1>
+          </div>
         </div>
       </div>
       <div className="portfolio--section--container">
