@@ -1,8 +1,8 @@
-.animated-background {
+/* .animated-background {
   background: var(--gradient);
   background-size: 400% 400%;
   animation: gradientAnimation 15s infinite;
-}
+} */
 
 @keyframes gradientAnimation {
   0% {
