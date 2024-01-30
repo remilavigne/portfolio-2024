@@ -1,5 +1,5 @@
 .animated-background {
-  background: linear-gradient(-45deg, #ff8a00, #e52e71, #0071bc, #00bfff);
+  background: var(--gradient);
   background-size: 400% 400%;
   animation: gradientAnimation 15s infinite;
 }
