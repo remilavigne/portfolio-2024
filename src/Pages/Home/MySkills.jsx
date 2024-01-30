@@ -21,9 +21,10 @@ export default function MySkills() {
         ))}
       </div>
       <div className="tada">
-        <div>
-          <h3>Developer</h3>
-          <ul>
+        <div className="skills--section--container--list">
+          <h2 className="skills--title">Developer</h2>
+          <hr></hr>
+          <ul className="skills--section-list">
             <li>HTML</li>
             <li>CSS</li>
             <li>Javascript</li>
