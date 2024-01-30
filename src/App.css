@@ -334,12 +334,15 @@ h2 {
   background: var(--bg-shade);
   min-height: 250px;
 }
+
 .skills--section--card:hover {
-  border-bottom: 4px solid var(--primary);
+  filter: drop-shadow(3px 3px 0px #1A1818);
 }
+
 .skills--section--card:hover .skills--section--description {
-  color: var(--darkblue);
+  color: var(--black);
 }
+
 .skills--section--img {
   display: flex;
   padding: 13.3px;
@@ -360,6 +363,7 @@ h2 {
   gap: 32px;
   align-self: stretch;
 }
+
 .skills--section--title {
   color: var(--heading-color);
   font-size: 32px;
@@ -382,6 +386,7 @@ h2 {
   justify-content: space-between;
 
 }
+
 /* Skills Style Ends */
 
 /* About Us */
@@ -436,26 +441,31 @@ h2 {
   align-items: center;
   width: 100%;
 }
+
 .portfolio--container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 21.3px;
 }
+
 .portfolio--section--container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 42.6px;
   width: 100%;
 }
+
 .portfolio--section--img {
   border-radius: 8px;
   width: 100%;
 }
+
 .portfolio--section--img > img {
   width: 100%;
 }
+
 .portfolio--section--card {
   display: flex;
   flex-direction: column;
