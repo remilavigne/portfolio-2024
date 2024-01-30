@@ -1,12 +1,12 @@
 import { Link } from "react-scroll";
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faSquareGithub } from '@fortawesome/free-brands-svg-icons'
+import '/home/remilavigne/code/remilavigne/portfolio-2024/src/AnimatedBackground.css';
 
 export default function HeroSection() {
   return (
-    <section id="heroSection" className="hero--section">
+    <section id="heroSection" className="hero--section animated-background">
       <div className="hero--section--content--box">
         <div className="hero--section--content">
           <p className="section--title">Hello there!</p>
