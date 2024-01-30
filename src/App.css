@@ -202,6 +202,7 @@ h2 {
   left: 0;
   right: 0;
 }
+
 .navbar--items > ul {
   list-style: none;
   display: flex;
@@ -209,9 +210,11 @@ h2 {
   gap: 42.667px;
   text-decoration: none;
 }
+
 .navbar--items ul > li > a {
   text-decoration: none;
 }
+
 /* Navbar Content */
 .navbar--content {
   color: var(--darkblue);
@@ -245,6 +248,7 @@ h2 {
   justify-content: center;
   gap: 32px;
 }
+
 .hero--section--content {
   display: flex;
   flex-direction: column;
@@ -266,6 +270,7 @@ h2 {
 .hero--section--title--color {
   color: var(--primary);
 }
+
 .hero--section-description {
   color: var(--black);
   font-size: 24px;
@@ -301,12 +306,14 @@ h2 {
   align-items: flex-start;
   gap: 106.667px;
 }
+
 .skills--section--heading {
   color: var(--heading-color);
   font-size: 64px;
   font-weight: 700;
   line-height: 77px;
 }
+
 .skills--section--container {
   display: grid;
   justify-content: center;
@@ -386,7 +393,6 @@ h2 {
   justify-content: space-between;
 
 }
-
 /* Skills Style Ends */
 
 /* About Us */
@@ -478,6 +484,7 @@ h2 {
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
+
 .portfolio--section--card--content {
   display: flex;
   padding: 32px;
@@ -486,9 +493,11 @@ h2 {
   gap: 32px;
   align-self: stretch;
 }
+
 .portfolio--section--title {
   color: var(--heading-color);
 }
+
 .portfolio--link {
   text-decoration: none;
   display: flex;
