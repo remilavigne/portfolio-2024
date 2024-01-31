@@ -4,19 +4,22 @@
       "id": "1",
       "src": "./img/laptop-code-solid.png",
       "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "color": "green",
+      "description": "I specialize in crafting visually stunning and seamlessly functional websites. Proficient in HTML, CSS, and JavaScript and JS frameworks, I bring designs to life and ensure a user-friendly experience. From responsive layouts to interactive features, I am dedicated to creating web solutions that captivate and engage audiences."
     },
     {
       "id": "2",
       "src": "./img/swatchbook-solid.png",
       "title": "UX/UI Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "color": "orange",
+      "description": "I shape the digital landscape by blending creativity with functionality. My passion lies in creating intuitive and visually compelling user interfaces. From wireframes to prototypes, I meticulously design every detail to enhance user satisfaction. I believe in the power of user-centric design to transform ideas into immersive and meaningful experiences."
     },
     {
       "id": "3",
       "src": "./img/bars-progress-solid.png",
       "title": "Project management",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "color": "pink",
+      "description": "From concept to delivery, I navigate the complexities of projects, ensuring timelines, budgets, and expectations are met. My strategic approach and effective communication skills facilitate collaboration among cross-functional teams, resulting in successful digital projects that meet and exceed objectives."
     }
   ],
   "philosophy": [

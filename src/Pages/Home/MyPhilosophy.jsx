@@ -13,9 +13,6 @@ export default function MySkills() {
       <div className="philosophy--section--container">
         {data?.philosophy?.map((item, index) => (
           <div key={index} className="skills--section--card">
-            <div className="skills--section--img">
-              <img src={item.src} alt="Product Chain" />
-            </div>
             <div className="skills--section--card--content">
               <h3 className="skills--section--title">{item.title}</h3>
               <p className="skills--section--description">{item.description}</p>
