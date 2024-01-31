@@ -74,6 +74,22 @@ hr {
   border: 3px solid var(--primary);
   filter: drop-shadow(3px 3px 0px #1DC0B2);
 }
+
+.btn-hero {
+  color: var(--black);
+  background-color: var(--bg-shade);
+  border: 3px solid var(--black);
+  filter: drop-shadow(3px 3px 0px #1A1818);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.btn-hero:hover {
+  background-color: var(--primary);
+}
+
 .btn-primary {
   color: var(--black);
   background-color: var(--primary);
@@ -91,6 +107,12 @@ hr {
   align-items: center;
   gap: 16px;
   background: var(--gradient);
+  transition: 1s;
+  transition-timing-function: ease-in-out;
+}
+
+.btn-contact:hover {
+  background: linear-gradient(45deg, #1DC0B2, #FED36F, #F0C1E1); ;
 }
 
 .btn-contact:hover {
@@ -276,7 +298,7 @@ h2 {
 
 .hero--section--cta {
   width: 100%;
-  margin-top: 24px;
+  margin-top: 68px;
   display: flex;
   flex-direction: row;
   align-items: center;
