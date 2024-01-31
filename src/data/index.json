@@ -51,21 +51,16 @@
       "src": "./img/mockup-sprintersell.png",
       "title": "Sprinter Sell - Elevating Sales Excellence",
       "description": "Sprinter Sell stands at the forefront of innovation, designed to empower sales representatives with an arsenal of tools to supercharge their efficiency and effectiveness.",
-      "link": "https://github.com/Fabfabulous/SprinterSell"
+      "link": "https://github.com/Fabfabulous/SprinterSell",
+      "stack": ["HTML", "CSS", "Javascript", "Bootstrap", "Ruby", "Ruby on rails"]
     },
     {
       "id": "2",
       "src": "./img/mockup-creepercorners.png",
       "title": "Creeper Corners - Minecraft Build Exploration Platform",
       "description": "Creeper Corners is a revolutionary platform that brings the enchanting world of Minecraft builds to your fingertips. Creeper Corners is your go-to destination for discovering and renting awe-inspiring Minecraft creations.",
-      "link": "https://github.com/Pierre-Ve/CreeperCorners"
-    },
-    {
-      "id": "3",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "link": "https://github.com/Pierre-Ve/CreeperCorners",
+      "stack": ["HTML", "CSS", "Javascript", "Bootstrap", "Ruby", "Ruby on rails"]
     }
   ]
 }
