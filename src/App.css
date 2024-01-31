@@ -25,6 +25,7 @@ p {
   --black: #1A1818;
   --white: #F6F6F6;
   --yellow: #FED36F;
+  --blue: #1D99C0;
   --gradient: linear-gradient(-45deg, #1DC0B2, #FED36F, #F0C1E1);
 }
 
@@ -315,13 +316,6 @@ h2 {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.skills--section--container--list {
-  display: grid;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 42.6px;
-  grid-template-columns: repeat(3, 1fr);
-}
 
 .skills--section--card {
   display: flex;
@@ -333,10 +327,7 @@ h2 {
   border-radius: 10.6px;
   background: var(--bg-shade);
   min-height: 250px;
-}
-
-.skills--section--card:hover {
-  filter: drop-shadow(3px 3px 0px #1A1818);
+  filter: drop-shadow(3px 3px 0px var(--black))
 }
 
 .skills--section--card:hover .skills--section--description {
@@ -377,16 +368,34 @@ h2 {
   font-weight: 400;
   line-height: 32px;
 }
-
+.skills--section--stack{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 69px;
+}
 .skills--section-list {
   width: 100%;
   list-style-type: none;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 16px;
 }
 
+.green {
+  filter: drop-shadow(3px 3px 0px var(--primary));
+}
+
+.pink {
+  filter: drop-shadow(3px 3px 0px var(--github));
+}
+
+.orange {
+  filter: drop-shadow(3px 3px 0px var(--yellow));
+}
 /* Skills Style Ends */
 
 /* About Us */
@@ -503,8 +512,35 @@ h2 {
   padding: 6px 12px;
   border: 2px solid var(--black);
   border-radius: 6px;
-
+  background-color: var(--white);
+  filter: drop-shadow(3px 3px 0px #1A1818);
 }
+
+.stack--color--green{
+  border: 2px solid var(--primary);
+  filter: drop-shadow(3px 3px 0px var(--primary));
+}
+
+.stack--color--github{
+  border: 2px solid var(--github);
+  filter: drop-shadow(3px 3px 0px var(--github));
+}
+
+.stack--color--dblue{
+  border: 2px solid var(--darkblue);
+  filter: drop-shadow(3px 3px 0px var(--darkblue));
+}
+
+.stack--color--blue{
+  border: 2px solid var(--blue);
+  filter: drop-shadow(3px 3px 0px var(--blue));
+}
+
+.stack--color--yellow{
+  border: 2px solid var(--yellow);
+  filter: drop-shadow(3px 3px 0px var(--yellow));
+}
+
 .portfolio--link {
   text-decoration: none;
   display: flex;
