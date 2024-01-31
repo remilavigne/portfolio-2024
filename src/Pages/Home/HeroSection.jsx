@@ -35,7 +35,7 @@ export default function HeroSection() {
             target="_blank"
             rel="noopener noreferrer"
            >
-            <button className="btn btn-github">
+            <button className="btn btn-hero">
               <FontAwesomeIcon icon={faSquareGithub} />
               My GitHub
             </button>
@@ -45,7 +45,7 @@ export default function HeroSection() {
             target="_blank"
             rel="noopener noreferrer"
            >
-            <button className="btn btn-github">
+            <button className="btn btn-hero">
               <FontAwesomeIcon icon={faLinkedin} />
               Connect on LinkedIn
             </button>
@@ -59,7 +59,7 @@ export default function HeroSection() {
                 to="Contact"
                 className="text-md"
               >
-                <button className="btn btn-primary btn-contact">
+                <button className="btn btn-hero">
                   <FontAwesomeIcon icon={faEnvelope} />
                   Contact Me</button>
               </Link>
