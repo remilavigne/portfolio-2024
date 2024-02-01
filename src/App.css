@@ -1,4 +1,7 @@
 /* Global CSS */
+#noiseBackground {
+  opacity: 0.2; /* Adjust the opacity as needed */
+}
 
 body {
   margin: 0;
@@ -147,6 +150,7 @@ hr {
 /* Main Headings */
 
 /* Heading 1 */
+
 h1 {
   font-size: 56px;
   font-weight: 700;
@@ -224,7 +228,9 @@ h2 {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 3;
 }
+
 .navbar--items > ul {
   list-style: none;
   display: flex;
@@ -232,9 +238,11 @@ h2 {
   gap: 42.667px;
   text-decoration: none;
 }
+
 .navbar--items ul > li > a {
   text-decoration: none;
 }
+
 /* Navbar Content */
 .navbar--content {
   color: var(--darkblue);
@@ -244,12 +252,18 @@ h2 {
   line-height: 24px;
   cursor: pointer;
 }
+
 .navbar--active-content {
   color: var(--primary);
 }
 /* Navbar Styler Ends */
 
 /* Hero Section Style */
+.object{
+  width: 10%;
+  filter: drop-shadow(3px 3px 0px var(--black))
+}
+
 .hero--section {
   display: flex;
   /* padding: 133.333px 85.333px 133.333px; */
@@ -261,23 +275,38 @@ h2 {
   height: 100dvh;
 }
 
+.noise--filter {
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100dvh;
+  background-image: url(/home/remilavigne/code/remilavigne/portfolio-2024/public/grainy-texture.svg);
+}
 .hero--section--content-box {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 32px;
+  z-index: 1;
 }
+
 .hero--section--content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 21.333px;
+  position: relative;
+  z-index: 2;
 }
+
 .hero--section--content--box > button {
   margin-top: 21.333px;
 }
+
 .hero--section--title {
   color: var(--heading-color);
   font-size: 74.667px;
@@ -289,6 +318,7 @@ h2 {
 .hero--section--title--color {
   color: var(--primary);
 }
+
 .hero--section-description {
   color: var(--black);
   font-size: 24px;
@@ -324,12 +354,14 @@ h2 {
   align-items: flex-start;
   gap: 106.667px;
 }
+
 .skills--section--heading {
   color: var(--heading-color);
   font-size: 64px;
   font-weight: 700;
   line-height: 77px;
 }
+
 .skills--section--container {
   display: grid;
   justify-content: center;
@@ -383,6 +415,7 @@ h2 {
   font-weight: 700;
   line-height: 45px;
 }
+
 .skills--section--description {
   color: var(--black);
   font-size: 21.3px;
@@ -390,12 +423,14 @@ h2 {
   font-weight: 400;
   line-height: 32px;
 }
+
 .skills--section--stack{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 69px;
 }
+
 .skills--section-list {
   width: 100%;
   list-style-type: none;
@@ -437,18 +472,21 @@ h2 {
   justify-content: center;
   gap: 21.333px;
 }
+
 .section--title--flex{
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 16px;
 }
+
 .horizontal-line{
   width: 36px;
   height: 2px;
   color: var(--black);
   border: none;
 }
+
 .about--section--img > img {
   width: 100%;
   height: 100%;
