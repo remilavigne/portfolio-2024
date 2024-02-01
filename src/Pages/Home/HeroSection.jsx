@@ -7,6 +7,7 @@ import '/home/remilavigne/code/remilavigne/portfolio-2024/src/AnimatedBackground
 export default function HeroSection() {
   return (
     <section id="heroSection" className="hero--section animated-background">
+      <div className="noise--filter"></div>
       <div className="hero--section--content--box">
         <div className="hero--section--content">
           <p className="section--title">Hello there!</p>
