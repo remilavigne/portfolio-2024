@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>Rémi Lavigne portfolio, front-end web developer and UX/UI designer</title>
+        
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet"></link>
         <meta name="description" content="Hey my name is Rémi, and welcome to my portfolio. I'm a fornt-end web developer and UX/UI designer based in Lyon"></meta>
         <meta name="keywords" content="Front-end web developer, UX design, UI design, portfolio"></meta>
