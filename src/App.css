@@ -267,7 +267,7 @@ h2 {
   justify-content: center;
   gap: 32px;
   background-color: var(--bg-shade);
-  width: 100vw;
+  width: 100%;
   height: 100dvh;
 }
 
@@ -740,6 +740,7 @@ input[type="checkbox"] {
 /* Footer Starts */
 .footer--container {
   display: flex;
+  /* width: 100%; */
   padding: 106.667px 85.333px;
   flex-direction: column;
   align-items: flex-start;
@@ -922,7 +923,7 @@ input[type="checkbox"] {
   }
 
   .LastWord--content--h1{
-    font-size: ;
+    font-size: 36px;
   }
 }
 /* Hamburger menu  */
