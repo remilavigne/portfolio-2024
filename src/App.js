@@ -12,7 +12,7 @@ function App() {
         <div>
           <Navbar />
           <Routes>
-            <Route path="portfolio-2024/" element={<Home />}></Route>
+            <Route path="/" element={<Home />}></Route>
             <Route path="*" element={<PageNotFound />}></Route>
           </Routes>
         </div>
