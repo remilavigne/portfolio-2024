@@ -459,7 +459,6 @@ h2 {
   gap: 114.6px;
   grid-template-columns: repeat(2, 1fr);
   background-color: var(--bg-shade);
-  /* width: 100%; */
 }
 
 .about--section--content {
@@ -924,6 +923,19 @@ input[type="checkbox"] {
 
   .LastWord--content--h1{
     font-size: 36px;
+  }
+
+  .about-section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .about--section--content {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-lg{
+    width: 350px;
   }
 }
 /* Hamburger menu  */
