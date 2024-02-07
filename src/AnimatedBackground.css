@@ -1,11 +1,10 @@
-/* .animated-background {
-  background: var(--gradient);
-  background-size: 400% 400%;
+.animated-background {
+  /* background: var(--gradient); */
+  background-size: 200% 200%;
   animation: gradientAnimation 15s infinite;
-} */
+}
 
 #noiseBackground {
-
   opacity: 0.2; /* Adjust the opacity as needed */
 }
 

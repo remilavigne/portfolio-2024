@@ -5,6 +5,7 @@ body {
   -webkit-font-smoothing: "Outfit", sans-serif;
   -moz-osx-font-smoothing: "Outfit", sans-serif;
   font-style: normal;
+  background-color: var(--black);
 }
 h1,
 h2,
@@ -14,18 +15,20 @@ h5,
 h6,
 p {
   margin: 0;
+  color: var(--white);
 }
 :root {
   --primary: #1DC0B2;
-  --heading-color: #1A1818;
-  --bg-shade: #EBE7E1;
+  --heading-color: #EBE7E1;
+  --bg-shade: #1A1818;
   --github: #F0C1E1;
   --darkblue: #1c1e53;
   --black: #1A1818;
-  --white: #F6F6F6;
+  --white: #EBE7E1;
   --yellow: #FED36F;
   --blue: #1D99C0;
-  --gradient: linear-gradient(-45deg, #1DC0B2, #FED36F, #F0C1E1);
+  --gradient: linear-gradient(90deg, #1DC0B2, #1A1818);
+  --gradientBorder: linear-gradient(90deg, #575757, #CFCFCF);
 }
 
 a {
@@ -35,11 +38,16 @@ a {
 hr {
   width: 100%;
   height: 2px;
-  background-color: var(--black);
+  background-color: var(--white);
+}
+
+button {
+  background: none;
+	border: none;
+	padding: 0;
 }
 
 .btn {
-  /* font-family: "Roboto"; */
   display: inline-block;
   font-family: "Outfit", sans-serif;
   padding: 14px 32px;
@@ -62,23 +70,36 @@ hr {
   -o-transition: background-color 0.5s;
 }
 .btn-outline-primary {
-  color: var(--black);
-  background-color: var(--white);
-  border: 3px solid var(--black);
-  filter: drop-shadow(3px 3px 0px #1A1818);
+  color: var(--white);
+  background-color: var(--black);
+  border: 3px solid var(--white);
+  filter: drop-shadow(3px 3px 0px #EBE7E1);
 }
-.btn-outline-primary:hover {
+/* .btn-outline-primary:hover {
   color: var(--primary);
   background-color: var(--white);
   border: 3px solid var(--primary);
   filter: drop-shadow(3px 3px 0px #1DC0B2);
+} */
+
+.btn-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
+/* .btn-contact:hover {
+  background: var(--primary);
+  filter: drop-shadow(3px 3px 0px #1DC0B2);
+} */
+
 .btn-hero {
-  color: var(--black);
+  color: var(--white);
   background-color: var(--bg-shade);
-  border: 3px solid var(--black);
-  filter: drop-shadow(3px 3px 0px #1A1818);
+  border: 2px solid var(--white);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -87,32 +108,20 @@ hr {
 
 .btn-hero:hover {
   background-color: var(--primary);
+  filter: drop-shadow(0px 0px 7px rgba(235, 231, 225, 0.1));
 }
 
 .btn-primary {
   color: var(--black);
   background-color: var(--primary);
   border: 3px solid var(--black);
-  filter: drop-shadow(3px 3px 0px #1A1818);
 }
 .btn-primary:hover {
   color: var(--black);
   background-color: var(--white);
+  filter: drop-shadow(3px 3px 0px #EBE7E1);
 }
 
-.btn-contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  background: var(--gradient);
-  transition: 1s;
-  transition-timing-function: ease-in-out;
-}
-
-.btn-contact:hover {
-  background: linear-gradient(45deg, #1DC0B2, #FED36F, #F0C1E1); ;
-}
 
 .btn-contact:hover {
   color: var(--black);
@@ -168,7 +177,7 @@ h2 {
 /* Pragraphs text large medium small */
 /* Body 1 */
 .text-lg {
-  color: var(--darkblue);
+  color: var(--white);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -176,7 +185,7 @@ h2 {
 }
 /* Body 2 */
 .text-md {
-  color: var(--darkblue);
+  color: var(--white);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -184,7 +193,7 @@ h2 {
 }
 /* Body 3 */
 .text-sm {
-  color: var(--black);
+  color: var(--white);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -194,7 +203,7 @@ h2 {
 /* Section Titles */
 /* Skills & About Me */
 .section--title {
-  color: var(--heading-color);
+  color: var(--white);
   font-size: 21px;
   text-align: center;
   font-style: normal;
@@ -205,7 +214,7 @@ h2 {
 }
 /* Portfolio & Contact Me */
 .sub--title {
-  color: var(--heading-color);
+  color: var(--white);
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
@@ -241,7 +250,7 @@ h2 {
 
 /* Navbar Content */
 .navbar--content {
-  color: var(--darkblue);
+  color: var(--white);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -316,7 +325,7 @@ h2 {
 }
 
 .hero--section-description {
-  color: var(--black);
+  color: var(--white);
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
@@ -499,6 +508,7 @@ h2 {
   flex-direction: column;
   align-items: flex-start;
   gap: 80px;
+  background-color: var(--black);
 }
 .portfolio--container-box {
   display: flex;
@@ -537,9 +547,11 @@ h2 {
   align-items: flex-start;
   gap: 32px;
   flex: 1 0 0;
-  background: var(--white);
+  background: var(--black);
   cursor: pointer;
   border-radius: 12px;
+  border: solid var(--white) 2px;
+  filter: drop-shadow(0px 0px 7px rgba(235, 231, 225, 0.1));
 }
 
 .portfolio--section--card--content {
@@ -566,9 +578,9 @@ h2 {
 
 .stack--item{
   padding: 6px 12px;
-  border: 2px solid var(--black);
+  border: 2px solid var(--white);
   border-radius: 6px;
-  background-color: var(--white);
+  background-color: var(--black);
   filter: drop-shadow(3px 3px 0px #1A1818);
 }
 
@@ -955,7 +967,7 @@ input[type="checkbox"] {
   display: block;
   height: 0.188rem;
   width: 100%;
-  background-color: #000000;
+  background-color: var(--white);
   border-radius: 0.625rem;
   transition: all ease-in-out 0.2s;
 }
@@ -973,7 +985,7 @@ input[type="checkbox"] {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255);
+    background-color: var(--black);
     top: -20rem;
     left: 0;
     width: 100%;
