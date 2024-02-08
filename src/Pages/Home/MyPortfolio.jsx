@@ -1,6 +1,7 @@
 import data from "../../data/index.json";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareGithub } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 export default function MyPortfolio() {
   return (
@@ -39,6 +40,9 @@ export default function MyPortfolio() {
                   Github
                 </button>
               </a>
+              <Link to="/SprinterSell">
+                <button className="btn btn-github">More information</button>
+              </Link>
             </div>
           </div>
         ))}
