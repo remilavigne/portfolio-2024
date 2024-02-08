@@ -1,7 +1,8 @@
 .animated-background {
-  /* background: var(--gradient); */
+  /* background: var(--gradient);
+  background-image: url="noise-overlay.jpg";
   background-size: 200% 200%;
-  animation: gradientAnimation 15s infinite;
+  animation: gradientAnimation 15s infinite; */
 }
 
 #noiseBackground {

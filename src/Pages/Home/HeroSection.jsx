@@ -35,7 +35,7 @@ export default function HeroSection() {
             </button>
           </a>
           <a
-            href="www.linkedin.com/in/rémi-lavigne-68753898"
+            href="https://linkedin.com/in/rémi-lavigne-68753898"
             target="_blank"
             rel="noopener noreferrer"
            >
