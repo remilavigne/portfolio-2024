@@ -327,6 +327,7 @@ h2 {
 }
 
 .hero--section--cta {
+  position: relative;
   width: 100%;
   margin-top: 68px;
   display: flex;
@@ -334,6 +335,8 @@ h2 {
   align-items: center;
   justify-content: center;
   gap: 16px;
+  z-index: 3
+;
 }
 .hero--section--img {
   display: flex;
