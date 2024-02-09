@@ -1,22 +1,17 @@
-.animated-background {
-  /* background: var(--gradient);
-  background-image: url="noise-overlay.jpg";
-  background-size: 200% 200%;
-  animation: gradientAnimation 15s infinite; */
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
 }
 
-#noiseBackground {
-  opacity: 0.2; /* Adjust the opacity as needed */
-}
-
-@keyframes gradientAnimation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+.fullscreen-bg__video {
+  position: absolute;
+  object-fit: fill;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
