@@ -258,6 +258,8 @@ h2 {
 .navbar--active-content {
   color: var(--primary);
 }
+
+
 /* Navbar Styler Ends */
 
 /* Hero Section Style */
@@ -268,29 +270,20 @@ h2 {
 
 .hero--section {
   display: flex;
-  /* padding: 133.333px 85.333px 133.333px; */
+  padding: 133.333px 250px 133.333px;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 32px;
   background-color: var(--bg-shade);
-  width: 100%;
+  /* width: 100%; */
   height: 100dvh;
 }
 
-.noise--filter {
-  opacity: 0.6;
-  position: absolute;
-  left: 0;
-  top: 0;
-  /* width: 100%;
-  height: 100dvh; */
-  background-image: url(/home/remilavigne/code/remilavigne/portfolio-2024/public/grainy-texture.svg);
-}
 .hero--section--content-box {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* flex-direction: column; */
+  /* align-items: center;
+  justify-content: flex-start; */
   gap: 32px;
   z-index: 1;
 }
@@ -298,8 +291,8 @@ h2 {
 .hero--section--content {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: left; */
   gap: 21.333px;
   position: relative;
   z-index: 2;
@@ -326,6 +319,7 @@ h2 {
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
+  text-align: left;
 }
 
 .hero--section--cta {
@@ -335,10 +329,9 @@ h2 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 16px;
-  z-index: 3
-;
+  z-index: 3;
 }
 .hero--section--img {
   display: flex;
@@ -346,7 +339,6 @@ h2 {
 .hero--section--img > img {
   width: 100%;
   height: 100%;
-  opacity: 0.1;
 }
 
 .hero--section--orange{
@@ -518,7 +510,7 @@ h2 {
 
 .section--title--flex{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 16px;
 }
@@ -652,7 +644,7 @@ h2 {
 
 .LastWord--container--section {
   /* background: linear-gradient(to right, #3494e6, #ec6ead); */
-  background-color: var(--black);
+  background-color: var(--primary);
   height: 100vh;
   width: 100%;
   margin: 0;
@@ -869,9 +861,12 @@ input[type="checkbox"] {
   }
   .hero--section {
     display: flex;
-    flex-direction: column-reverse;
-    padding-bottom: 70px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 80px;
   }
+
   .hero--section--title,
   .hero--section-description,
   .footer--content {
@@ -936,6 +931,14 @@ input[type="checkbox"] {
   }
   .divider {
     margin: 20px;
+  }
+
+  .hero--section--img > img {
+    display: none;
+  }
+  .hero--section--cta {
+    align-items: center;
+    justify-content: center;
   }
 }
 
