@@ -728,6 +728,10 @@ h2 {
   font-family: "Outfit", sans-serif;
 }
 
+.contact--link{
+  color: var(--primary);
+}
+
 textarea {
   font-family: "Outfit", sans-serif;
 }
