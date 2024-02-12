@@ -18,7 +18,7 @@ p {
   color: var(--white);
 }
 :root {
-  --primary: #1DC0B2;
+  --primary: #E07B6E;
   --heading-color: #EBE7E1;
   --bg-shade: #1A1818;
   --github: #F0C1E1;
@@ -27,6 +27,8 @@ p {
   --white: #EBE7E1;
   --yellow: #FED36F;
   --blue: #1D99C0;
+  --dark-grey: #282828;
+  --grey-shade: linear-gradient(90deg, #282828, #1A1818);
   --gradient: linear-gradient(90deg, #1DC0B2, #1A1818);
   --gradient-card: linear-gradient(90deg, #2B2A2A, #1A1818);
   --gradientBorder: linear-gradient(90deg, #575757, #CFCFCF);
@@ -82,7 +84,7 @@ button {
 .btn-outline-primary:hover {
   color: var(--primary);
   border: 3px solid var(--primary);
-  filter: drop-shadow(0px 0px 5px rgba(29, 192, 178, 0.6));
+  filter: drop-shadow(0px 0px 5px rgba(224, 123, 110, 0.6));
 }
 
 .btn-contact {
@@ -107,7 +109,7 @@ button {
 .btn-hero:hover {
   color: var(--primary);
   border: 2px solid var(--primary);
-  filter: drop-shadow(0px 0px 9px rgba(29, 192, 178, 0.2));
+  filter: drop-shadow(0px 0px 9px rgba(224, 123, 110, 0.2));
 }
 
 .btn-primary {
@@ -127,14 +129,14 @@ button {
 
 .btn-github {
   color: var(--black);
-  background-color: var(--github);
+  background-color: var(--primary);
   border: var(--github);
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 16px;
-  border: 3px solid var(--black);
+  /* border: 2px solid var(--white); */
   filter: drop-shadow(0px 0px 9px rgba(67, 67, 67, 0.5));
 }
 .btn-github:hover {
@@ -346,6 +348,10 @@ h2 {
   height: 100%;
   opacity: 0.1;
 }
+
+.hero--section--orange{
+ color: var(--primary);
+}
 /* Hero Section Style Ends */
 
 /* Skills Section Style */
@@ -383,7 +389,7 @@ h2 {
   gap: 32px;
   flex: 1 0 0;
   border-radius: 10.6px;
-  background: var(--bg-shade);
+  background: var(--grey-shade);
   border: 2px solid var(--white);
   transition: 0.3s;
   transition-timing-function: ease-in-out;
@@ -504,7 +510,7 @@ h2 {
   justify-content: center;
   padding: 24px;
   gap: 21.333px;
-  background: var(--black);
+  background: var(--grey-shade);
   border: 2px solid var(--white);
   border-radius: 16px;
   filter: drop-shadow(0px 0px 9px rgba(67, 67, 67, 0.5));
@@ -586,7 +592,7 @@ h2 {
 
 .portfolio--section--card--content {
   display: flex;
-  background-color: var(--black);
+  background: var(--grey-shade);
   border-radius: 0 0 12px 12px;
   padding: 32px;
   flex-direction: column;
@@ -772,7 +778,7 @@ input[type="checkbox"] {
   padding: 106.667px 85.333px;
   flex-direction: column;
   align-items: flex-start;
-  background: var(--bg-shade);
+  background: var(--dark-grey);
   align-items: center;
   align-self: stretch;
 }
