@@ -6,7 +6,7 @@ import '/home/remilavigne/code/remilavigne/portfolio-2024/src/AnimatedBackground
 
 export default function HeroSection() {
   return (
-    <section id="heroSection" className="hero--section animated-background">
+    <section id="heroSection" className="hero--section">
       {/* <div classname="fullscreen-bg">
         <video autoPlay muted loop className="fullscreen-bg__video">
           <source src="video-hero.mp4" type="video/mp4" />
@@ -64,6 +64,9 @@ export default function HeroSection() {
                   Contact Me</button>
               </Link>
         </div>
+      </div>
+      <div className="hero--section--img">
+        <img src="img/hero-img.png" alt="hero-img" />
       </div>
     </section>
   );
