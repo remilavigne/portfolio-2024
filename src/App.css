@@ -270,7 +270,7 @@ h2 {
 
 .hero--section {
   display: flex;
-  padding: 133.333px 250px 133.333px;
+  padding: 20px 200px 20px;
   align-items: center;
   justify-content: flex-start;
   gap: 32px;
