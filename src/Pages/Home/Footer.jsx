@@ -8,7 +8,7 @@ function Footer() {
   return (
     <footer className="footer--container">
       <div className="footer--link--container">
-        <div>
+        <div className="footer-img">
           <img src="./img/logo.svg" alt="Logo rémi lavigne" />
         </div>
         <div className="footer--items">
