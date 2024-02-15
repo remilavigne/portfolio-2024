@@ -1,18 +1,19 @@
+import { Reveal } from "./Reveal.tsx";
 
 export default function ContactMe() {
   const emailAddress = "remilavigne.pro@gmail.com";
 
   return (
     <section id="Contact" className="contact--section">
-      <div className="contact--content--title">
-        <h2>Contact Me</h2>
-        <p className="text-lg">
-        Have a project you'd like to discuss or just want to connect? I'm all ears! Feel free to reach out through any of the channels below, and let's start a conversation:
-        </p>
-        <h3>You can me via email at:{" "}
-          <a className="contact--link" href={`mailto:${emailAddress}`}>{emailAddress}</a>
-        </h3>
-      </div>
+        <div className="contact--content--title">
+          <h2>Contact Me</h2>
+          <p className="text-lg">
+          Have a project you'd like to discuss or just want to connect? I'm all ears! Feel free to reach out through any of the channels below, and let's start a conversation:
+          </p>
+          <h3>You can me via email at:{" "}
+            <a className="contact--link" href={`mailto:${emailAddress}`}>{emailAddress}</a>
+          </h3>
+        </div>
       {/* <form className="contact--form--container">
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
@@ -73,6 +74,5 @@ export default function ContactMe() {
         </div>
       </form> */}
     </section>
-
   );
 }
