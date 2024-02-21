@@ -54,6 +54,12 @@ button {
 	padding: 0;
 }
 
+.animation--reveal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .btn {
   display: inline-block;
   font-family: "Outfit", sans-serif;
@@ -580,7 +586,6 @@ h2 {
   align-items: flex-start;
   flex: 1 0 0;
   background: var(--white);
-  cursor: pointer;
   border-radius: 12px;
   border: solid var(--white) 2px;
   filter: drop-shadow(0px 0px 9px rgba(67, 67, 67, 0.5));
@@ -883,7 +888,10 @@ input[type="checkbox"] {
     justify-content: center;
     padding: 80px 80px;
   }
-
+  .portfolio--section--card{
+    justify-content: center;
+    align-items: center;
+  }
   .hero--section--title,
   .hero--section-description,
   .footer--content {
@@ -949,6 +957,12 @@ input[type="checkbox"] {
   .divider {
     margin: 20px;
   }
+  .footer-img{
+      margin-bottom: 24px;
+    }
+  .footer--social--icon{
+      margin-top: 24px;
+    }
 
   .hero--section--img > img {
     display: none;
@@ -968,12 +982,9 @@ input[type="checkbox"] {
 }
 
 @media only screen and (max-width: 600px) {
-  .hero--section-description {
-    width: 60%;
-  }
-
   .hero--section--cta {
     flex-direction: column;
+    width: 100%;
   }
 
   .hero--section--content--box{
@@ -981,7 +992,7 @@ input[type="checkbox"] {
   }
 
   .philosophy--section--container {
-    flex-direction: column;
+
   }
 
   .LastWord--content--h1{
@@ -1000,11 +1011,16 @@ input[type="checkbox"] {
   .text-lg{
     width: 350px;
   }
-  .footer-img{
-    margin-bottom: 24px;
+
+  .div{
+    width: 100%
   }
-  .footer--social--icon{
- margin-top: 24px;
+
+  .animation--reveal{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }
 /* Hamburger menu  */
@@ -1052,7 +1068,7 @@ input[type="checkbox"] {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 3rem 0 0.6rem;
+    padding: 5rem 0 1rem;
     z-index: -100;
   }
   .navbar--items ul li {
