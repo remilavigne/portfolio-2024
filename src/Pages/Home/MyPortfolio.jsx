@@ -1,6 +1,6 @@
 import data from "../../data/index.json";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSquareGithub } from '@fortawesome/free-brands-svg-icons';
+import { faSquareGithub,  } from '@fortawesome/free-brands-svg-icons';
 import { faEye } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 import { Reveal } from "./Reveal.tsx";
@@ -30,7 +30,10 @@ export default function MyPortfolio() {
               <div className="portfolio--section--card--content">
                 <div>
                   <Reveal>
-                    <h2 className="portfolio--section--title"><strong>{item.title}</strong></h2>
+                    <div className="portfolio--title">
+                      <p className="stack--item portfolio--type--title">{item.type}</p>
+                      <h2 className="portfolio--section--title"><strong>{item.title}</strong></h2>
+                    </div>
                   </Reveal>
                   <Reveal>
                     <h3 className="portfolio--section--moto">{item.moto}</h3>
@@ -41,20 +44,16 @@ export default function MyPortfolio() {
                 </div>
               <Reveal>
                 <div className="stack--list--items">
-                  <p className="stack--item">HTML</p>
-                  <p className="stack--item">CSS</p>
-                  <p className="stack--item">Javascript</p>
-                  <p className="stack--item">Bootstrap</p>
-                  <p className="stack--item">Ruby</p>
-                  <p className="stack--item">Ruby on rails</p>
+                  {item.stack.map((element, index) => (
+                      <p key={index} className="stack--item">{element}</p>
+                  ))}
                 </div>
               </Reveal>
               <Reveal>
                 <div className="portfolio--btn--flex">
-                  <a href={item.link} target="_blanck">
+                  <a href={item.github || item.figma } target="_blanck">
                     <button className="btn btn-github">
-                      <FontAwesomeIcon icon={faSquareGithub} />
-                      Github
+                      {item.github ? "Github" : "Figma"}
                     </button>
                   </a>
                   {/* <Link to="/SprinterSell">
