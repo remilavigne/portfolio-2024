@@ -50,7 +50,7 @@ export default function HeroSection() {
             <a
               href="https://linkedin.com/in/rémi-lavigne-68753898"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer"np
             >
               <button className="btn btn-hero">
                 <FontAwesomeIcon icon={faLinkedin} />

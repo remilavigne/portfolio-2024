@@ -564,11 +564,12 @@ h2 {
 }
 
 .portfolio--section--container {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 42.6px;
-  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: stretch;
+  align-items: stretch;
 }
 
 .portfolio--section--img {
@@ -600,6 +601,7 @@ h2 {
   align-items: flex-start;
   gap: 32px;
   align-self: stretch;
+  height: 100%;
   border-top: solid var(--white) 2px;
 }
 
@@ -607,11 +609,21 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: fit-content;
+}
+.portfolio--title{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.portfolio--type--title{
+  color: var(--primary);
+  border: 2px solid var(--primary);
 }
 
 .portfolio--section--title {
   color: var(--primary);
-  margin-bottom: 16px;
 }
 .portfolio--section--moto {
   margin-bottom: 16px;
@@ -987,16 +999,25 @@ input[type="checkbox"] {
     width: 100%;
   }
 
+  hr{
+    display: none;
+  }
+
   .hero--section--content--box{
     padding-top: 75px;
   }
 
-  .philosophy--section--container {
-
-  }
-
   .LastWord--content--h1{
     font-size: 36px;
+  }
+
+  .portfolio--title{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .porfolio--section--title{
+    text-align: center;
   }
 
   .about-section{

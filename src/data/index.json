@@ -51,23 +51,53 @@
   "portfolio": [
     {
       "id": "1",
-      "Type": "Full Stack",
+      "type": "Full Stack",
       "src": "./img/mockup-sprintersell.png",
       "title": "Sprinter Sell",
       "moto": " Elevating Sales Excellence",
       "description": "Sprinter Sell stands at the forefront of innovation, designed to empower sales representatives with an arsenal of tools to supercharge their efficiency and effectiveness.",
-      "link": "https://github.com/Fabfabulous/SprinterSell",
+      "github": "https://github.com/Fabfabulous/SprinterSell",
       "stack": ["HTML", "CSS", "Javascript", "Bootstrap", "Ruby", "Ruby on rails"]
     },
     {
       "id": "2",
-      "Type": "Full Stack",
+      "type": "Full Stack",
       "src": "./img/mockup-creepercorners.png",
       "title": "Creeper Corners",
       "moto": "Minecraft Build Exploration Platform",
       "description": "Creeper Corners is a revolutionary platform that brings the enchanting world of Minecraft builds to your fingertips. Creeper Corners is your go-to destination for discovering and renting awe-inspiring Minecraft creations.",
-      "link": "https://github.com/Pierre-Ve/CreeperCorners",
+      "github": "https://github.com/Pierre-Ve/CreeperCorners",
       "stack": ["HTML", "CSS", "Javascript", "Bootstrap", "Ruby", "Ruby on rails"]
+    },
+    {
+      "id": "4",
+      "type": "UX/UI",
+      "src": "./img/mockup-wikipedia.png",
+      "title": "Wikipedia",
+      "moto": "Add a feature to the existing Wikipedia's app.",
+      "description": "We modified the 'map' feature on Wikipedia's app, adding augtented reality, that aim to provide a more immersive experience to the user",
+      "figma": "https://www.figma.com/proto/p2RuEd6xaI5uCiNIng4NKU/Project-3-%7C-Remi?page-id=232%3A4123&type=design&node-id=427-4763&viewport=494%2C106%2C0.09&t=8LwQ3IZuzAUVIUmJ-1&scaling=scale-down&starting-point-node-id=427%3A4763&show-proto-sidebar=1&mode=design",
+      "stack": ["Ux research", "Ideation", "Prototyping", "User testing", "Augmented reality" ]
+    },
+    {
+      "id": "5",
+      "type": "UX/UI",
+      "src": "./img/mockup-goalup.png",
+      "title": "GoalUp",
+      "moto": "Create an app dedicated to personnal developpement",
+      "description": "We've created and prototyped GoalUp, a personal development app that is community driven.",
+      "figma": "https://www.figma.com/proto/DWBMtC3LiCiJ6UTQAfre69/Project-5-%7C-Group-3-%7C-Mario-%26-Remi?page-id=1922%3A14099&type=design&node-id=1922-14159&viewport=402%2C437%2C0.2&t=5hcuMLnvUzLL4jQ9-1&scaling=scale-down&starting-point-node-id=1922%3A14124&mode=design",
+      "stack": ["Project framing", "UX research", "Ideation", "Prototyping", "Design system", "Branding", "UI design", "User testing"]
+    },
+    {
+      "id": "6",
+      "type": "UX/UI",
+      "src": "./img/mockup-OABCN.png",
+      "title": "Outdoor Adenture BCN",
+      "moto": "Create a responsive website",
+      "description": "The goal was to prototype a responsive website for Outdoor Adventure BCN, a company that provide outdoor and mountain activities services in Spain",
+      "figma": "https://www.figma.com/proto/J1XKi2G3dMX3OauTR73mvy/Outdoor-Adventures--%7C-James-%26-Remi?page-id=1295%3A6294&type=design&node-id=1649-22521&viewport=147%2C385%2C0.05&t=p8wwhUlSdJUISYAg-1&scaling=scale-down&starting-point-node-id=1563%3A21376&show-proto-sidebar=1&mode=design",
+      "stack": ["Project framing", "UX research", "Ideation", "Prototyping", "Design system", "Branding", "UI design", "User testing"]
     }
   ]
 }
