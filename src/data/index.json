@@ -70,11 +70,21 @@
       "stack": ["HTML", "CSS", "Javascript", "Bootstrap", "Ruby", "Ruby on rails"]
     },
     {
+      "id": "3",
+      "type": "Front End",
+      "src": "./img/mockup-band-app.png",
+      "title": "Music band app",
+      "moto": "Where Music Meets Organization",
+      "description": "The ultimate app designed to help small bands and streamline their rehearsal schedules, collaborate on songwriting, and manage gigs effortlessly, bringing harmony to your music creation process.",
+      "github": "soon",
+      "stack": ["UX Research", "Prototyping", "UI Design", "React", "Tailwind CSS", "Ruby"]
+    },
+    {
       "id": "4",
       "type": "UX/UI",
       "src": "./img/mockup-wikipedia.png",
       "title": "Wikipedia",
-      "moto": "Add a feature to the existing Wikipedia's app.",
+      "moto": "Add a feature to the existing Wikipedia's app",
       "description": "We modified the 'map' feature on Wikipedia's app, adding augtented reality, that aim to provide a more immersive experience to the user",
       "figma": "https://www.figma.com/proto/p2RuEd6xaI5uCiNIng4NKU/Project-3-%7C-Remi?page-id=232%3A4123&type=design&node-id=427-4763&viewport=494%2C106%2C0.09&t=8LwQ3IZuzAUVIUmJ-1&scaling=scale-down&starting-point-node-id=427%3A4763&show-proto-sidebar=1&mode=design",
       "stack": ["Ux research", "Ideation", "Prototyping", "User testing", "Augmented reality" ]

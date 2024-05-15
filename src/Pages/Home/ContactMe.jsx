@@ -1,5 +1,3 @@
-import { Reveal } from "./Reveal.tsx";
-
 export default function ContactMe() {
   const emailAddress = "remilavigne.pro@gmail.com";
 
@@ -10,7 +8,7 @@ export default function ContactMe() {
           <p className="text-lg">
           Have a project you'd like to discuss or just want to connect? I'm all ears! Feel free to reach out through any of the channels below, and let's start a conversation:
           </p>
-          <h3>You can me via email at:{" "}
+          <h3>You can contact me via email at:{" "}
             <a className="contact--link" href={`mailto:${emailAddress}`}>{emailAddress}</a>
           </h3>
         </div>
