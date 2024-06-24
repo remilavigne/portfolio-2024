@@ -5,11 +5,11 @@ import { faDownload} from '@fortawesome/free-solid-svg-icons'
 
 const DownloadButton = () => {
   const handleDownload = () => {
-    const pdfUrl = process.env.PUBLIC_URL + '/CV_Remi_Lavigne_EN.pdf';
+    const pdfUrl = process.env.PUBLIC_URL + '/CV_Remi_lavigne_EN.pdf';
 
     const link = document.createElement('a');
     link.href = pdfUrl;
-    link.download = 'CV_Remi_Lavigne_EN.pdf';
+    link.download = 'CV_Remi_lavigne_EN.pdf';
     link.target = '_blank';
 
     document.body.appendChild(link);
