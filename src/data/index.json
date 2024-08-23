@@ -52,6 +52,16 @@
     {
       "id": "1",
       "type": "Full Stack",
+      "src": "./img/mockup-jamlab.png",
+      "title": "Music band app (coming soon)",
+      "moto": "Where Music Meets Organization",
+      "description": "The ultimate app designed to help small bands and streamline their rehearsal schedules, collaborate on songwriting, and manage gigs effortlessly, bringing harmony to your music creation process.",
+      "github": "https://github.com/remilavigne/JamLab",
+      "stack": ["UX/UI Design", "React", "Next.js", "Tailwind CSS"]
+    },
+    {
+      "id": "2",
+      "type": "Full Stack",
       "src": "./img/mockup-sprintersell.png",
       "title": "Sprinter Sell",
       "moto": " Elevating Sales Excellence",
@@ -60,7 +70,7 @@
       "stack": ["HTML", "CSS", "Javascript", "Bootstrap", "Ruby", "Ruby on rails"]
     },
     {
-      "id": "2",
+      "id": "3",
       "type": "Full Stack",
       "src": "./img/mockup-creepercorners.png",
       "title": "Creeper Corners",
@@ -68,16 +78,6 @@
       "description": "Creeper Corners is a revolutionary platform that brings the enchanting world of Minecraft builds to your fingertips. Creeper Corners is your go-to destination for discovering and renting awe-inspiring Minecraft creations.",
       "github": "https://github.com/Pierre-Ve/CreeperCorners",
       "stack": ["HTML", "CSS", "Javascript", "Bootstrap", "Ruby", "Ruby on rails"]
-    },
-    {
-      "id": "3",
-      "type": "Front End",
-      "src": "./img/mockup-band-app.png",
-      "title": "Music band app",
-      "moto": "Where Music Meets Organization",
-      "description": "The ultimate app designed to help small bands and streamline their rehearsal schedules, collaborate on songwriting, and manage gigs effortlessly, bringing harmony to your music creation process.",
-      "github": "soon",
-      "stack": ["UX Research", "Prototyping", "UI Design", "React", "Tailwind CSS", "Ruby"]
     },
     {
       "id": "4",

@@ -7,13 +7,6 @@ import { Reveal } from "./Reveal.tsx";
 export default function HeroSection() {
   return (
     <section id="heroSection" className="hero--section">
-      {/* <div classname="fullscreen-bg">
-        <video autoPlay muted loop className="fullscreen-bg__video">
-          <source src="video-hero.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </div> */}
-      {/* <div className="noise--filter"></div> */}
       <div className="hero--section--content--box">
         <div className="hero--section--content">
           <Reveal>
