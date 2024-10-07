@@ -4,6 +4,7 @@ import { faSquareGithub,  } from '@fortawesome/free-brands-svg-icons';
 import { faEye } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 import { Reveal } from "./Reveal.tsx";
+import Button from "../../Components/Button.jsx";
 
 export default function MyPortfolio() {
   return (
@@ -25,7 +26,7 @@ export default function MyPortfolio() {
           {data?.portfolio?.map((item, index) => (
             <div key={index} className="portfolio--section--card">
               <div className="portfolio--section--img">
-                <img src={item.src} alt="Placeholder" />
+                <img src={item.src} alt={item.title} />
               </div>
               <div className="portfolio--section--card--content">
                 <div>
@@ -52,9 +53,9 @@ export default function MyPortfolio() {
               <Reveal>
                 <div className="portfolio--btn--flex">
                   <a href={item.github || item.figma } target="_blanck">
-                    <button className="btn btn-github">
+                    <Button className="btn btn-github">
                       {item.github ? "Github" : "Figma"}
-                    </button>
+                    </Button>
                   </a>
                   {/* <Link to="/SprinterSell">
                     <button className="btn btn-github">

@@ -7,9 +7,6 @@ import MySkills from "../MySkills"
 import LastWord from "../LastWord"
 import MyPhilosophy from "../MyPhilosophy"
 
-
-
-
 export default function Home() {
   return (
     <>

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import DownloadButton from './DownloadButton';
+import Buttton from '../../Components/Button';
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);

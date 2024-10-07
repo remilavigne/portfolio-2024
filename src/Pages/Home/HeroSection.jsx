@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faSquareGithub } from '@fortawesome/free-brands-svg-icons';
 import { Reveal } from "./Reveal.tsx";
+import Button from "../../Components/Button.jsx";
 
 export default function HeroSection() {
   return (
@@ -35,20 +36,20 @@ export default function HeroSection() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="btn btn-hero">
+              <Button className="btn btn-hero">
                 <FontAwesomeIcon icon={faSquareGithub} />
                 My GitHub
-              </button>
+              </Button>
             </a>
             <a
               href="https://linkedin.com/in/rémi-lavigne-68753898"
               target="_blank"
               rel="noopener noreferrer"np
             >
-              <button className="btn btn-hero">
+              <Button className="btn btn-hero">
                 <FontAwesomeIcon icon={faLinkedin} />
                 Connect on LinkedIn
-              </button>
+              </Button>
             </a>
             <Link
                   activeClass="navbar--active-content"
@@ -59,9 +60,9 @@ export default function HeroSection() {
                   to="Contact"
                   className="text-md"
                 >
-                  <button className="btn btn-hero">
+                  <Button className="btn btn-hero">
                     <FontAwesomeIcon icon={faEnvelope} />
-                    Contact Me</button>
+                    Contact Me</Button>
                 </Link>
           </div>
         </Reveal>
