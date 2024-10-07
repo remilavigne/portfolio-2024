@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Button from '../../Components/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload} from '@fortawesome/free-solid-svg-icons'
 
@@ -20,10 +20,10 @@ const DownloadButton = () => {
   };
 
   return (
-    <button onClick={handleDownload} className="btn btn-outline-primary btn-contact">
+    <Button onClick={handleDownload} className="btn btn-outline-primary btn-contact">
       <FontAwesomeIcon icon={faDownload} />
       My resume
-    </button>
+    </Button>
   );
 };
 
